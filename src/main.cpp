@@ -17,4 +17,12 @@ void setup() {
     delay(1000);
 }
 
-void loop() {}
+// ... setup code from above ...
+
+void loop() {
+    // Basic Digital Toggle for testing hardware
+    digitalWrite(RED_PIN, HIGH);
+    delay(1000);
+    digitalWrite(RED_PIN, LOW);
+    delay(1000);
+}
