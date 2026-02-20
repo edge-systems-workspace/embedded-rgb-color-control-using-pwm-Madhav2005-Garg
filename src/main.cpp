@@ -1,10 +1,8 @@
 #include <Arduino.h>
-/**
- * @file main.cpp
- * @brief Embedded RGB LED Control (Digital + PWM)
- * @author rishabh-rb
- * @date 2026-02-20
- */
+
+#define RED_PIN 9
+#define GREEN_PIN 10
+#define BLUE_PIN 11
 
 void setup() {}
 void loop() {}
